@@ -7,6 +7,95 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    t
+    <form>
+        <h1>Employment form</h1>
+        <section id="fields">
+            <section id="firstNameInput">
+                <span class="Info">First name</span><br>
+                <input type="text" placeholder="Jan" required>
+            </section>
+            <section id="lastNameInput">
+                <span class="Info">Last name</span><br>
+                <input type="text" placeholder="Kowalski" required>
+            </section>
+            <section id="emailInput">
+                <span class="Info">Email</span><br>
+                <input  placeholder="jk@gmail.com" required pattern="^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$" type="email">
+            </section>
+            <section id="phoneInput">
+                <span class="Info">Phone</span><br>
+                <input type="text" placeholder="505 505 505" required pattern="[0-9]{3}\s+[0-9]{3}\s+[0-9]{3}">
+            </section>
+            <section id="dateInput">
+                <span class="Info">Date of birth</span><br>
+                <input type="date" required min="2023-10-26">
+            </section>
+            <section id="genderInput">
+                <span class="Info">Gender</span><br>
+                <select required>
+                    <option hidden disabled selected value> -- select an option -- </option>
+                    <option>Mężczyzna</option>
+                    <option>Kobieta</option>
+                </select>
+            </section>
+        </section>
+        <span class="Info">What are you looking for</span>
+        <section id="firstRadio">
+            <section>
+                <input type="radio" name="first">
+                <label>Software Enginner</label>
+            </section>
+            <section>
+                <input type="radio" name="first">
+                <label>UX Designer</label>
+            </section>
+            <section>
+                <input type="radio" name="first" >
+                <label>Analytics Specialist</label>
+            </section>
+            <section>
+                <input type="radio" name="first" >
+                <label>Project Manager </label>
+            </section>
+            
+            
+        </section>
+        <span  class="Info">Which programming languages do you know</span>
+        <section id="secondRadio">
+            <section>
+                <input type="checkbox" name="second">
+                <label>Java</label>
+            </section>
+            <section>
+                <input type="checkbox" name="second">
+            <label>Javascript</label>
+            </section>
+            <section>
+                <input type="checkbox" name="second">
+            <label>C#</label>
+            </section>
+            <section>
+                <input type="checkbox" name="second">
+            <label>Kotlin</label>
+            </section>
+            <section>
+                <input type="checkbox" name="second">
+            <label>Python</label>
+            </section>
+            <section>
+                <input type="checkbox" name="second">
+            <label>Scala</label>
+            </section>
+        </section>
+        <section id="messageSection">
+            <p class="Info">Message</p>
+             <textarea type="text" placeholder="Type your message here"></textarea> 
+        </section>
+        <section id="buttonsHolder">
+            <button id="b1">Reset</button>
+            <button id="b2">Submit</button>
+        </section>
+        
+    </form>
 </body>
 </html>

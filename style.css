@@ -1,0 +1,105 @@
+*
+{
+    box-sizing: border-box;
+}
+form
+{
+    width:50%;
+}
+h1
+{
+    color:rgb(255, 81, 1);
+}
+#fields
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:100%;
+}
+#firstNameInput, #lastNameInput
+{
+    width:47%;
+    padding-top:20px;
+}
+#emailInput, #phoneInput, #dateInput
+{
+    padding-top:20px;
+    width:30%;
+    padding:20px 0px 0px 0px;
+}
+#genderInput
+{
+    margin-top:20px;
+    width:100%;
+    margin-bottom:30px;
+}
+#genderInput select
+{
+    background-color: white;
+    border:1px solid rgb(177, 171, 171);
+    border-radius: 5px;
+    width:100%;
+    padding:8px;
+}
+.Info
+{
+    color:rgb(255, 81, 1);
+    font-weight: 600;
+    width:100%;
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#firstNameInput input, #lastNameInput input, #emailInput input, #phoneInput input , #dateInput input
+{
+    width:100%;
+    padding:8px;
+    border:1px solid rgb(177, 171, 171);
+    border-radius: 5px;
+    margin-top:8px;
+}
+#firstNameInput input:focus, #lastNameInput input:focus, #emailInput input:focus, #phoneInput input:focus , #dateInput input:focus
+{
+    border:1px solid rgb(255, 81, 1);
+
+    outline:none;
+}
+#firstRadio,#secondRadio
+{
+    margin-top:10px;
+    margin-bottom:27px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#messageSection textarea
+{
+    width:100%;
+    padding:8px;
+    height:150px;
+    resize:none;
+}
+#buttonsHolder
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:20px;
+}
+#b1, #b2
+{
+    background-color: rgb(255, 81, 1);
+    height:50px;
+    border-radius:10px;
+    color:white;
+    font-size:14px;
+    font-weight: 600;
+}
+#b1
+{
+    width:28%;
+}
+#b2
+{
+    width:70%;
+}
