@@ -1,4 +1,4 @@
-Zajęcia 1
+Zajęcia 2
 
 [Zadanie 1 - Hamburger](https://teafanatic.github.io/AllegroFrontend2_1/)
 
